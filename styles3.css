@@ -1,51 +1,40 @@
 *{
     box-sizing: border-box;
-    margin: 0%;
 }
+
 .container{
     display: flex;
     justify-content: space-between;
     border: 4px solid lightgrey;
-    width: 100%;
-    padding: 24px; 
+    padding: 24px;
 }
 .row{
     width: 100%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 0 auto;
     display: flex;
     justify-content: space-between;
 }
+
 .box{
-border: 4px solid lightgrey;
-margin-bottom: 24px;
-
+    width: 100%;
+    border: 2px solid lightgrey;
+    padding: 24px;
+    
 }
-
 .boxwrap{
     width: 50%;
-    padding-right: 24px;
-}
-
-.boxsmall{
-    height: 45px;
-}
-.boxtiny{
-    width: 30%;
-    height: 50px;
-    margin-bottom: 0%;
-
-}
-.boxtinywrap{
+    height: 200px;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    
+    margin-right: 24px;
 
 }
-
 .boxlarge{
-    
-   width: 50%;
-   margin-bottom: 0px;
+    width: 50%;
+    height: 200px;
+    margin-left: 24px;
 
+    
 }
